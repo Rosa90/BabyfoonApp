@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		986FF7341E9E6D9000C90D61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986FF7331E9E6D9000C90D61 /* AppDelegate.swift */; };
-		986FF7361E9E6D9000C90D61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986FF7351E9E6D9000C90D61 /* ViewController.swift */; };
 		986FF7391E9E6D9000C90D61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 986FF7371E9E6D9000C90D61 /* Main.storyboard */; };
 		986FF73B1E9E6D9000C90D61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 986FF73A1E9E6D9000C90D61 /* Assets.xcassets */; };
 		986FF73E1E9E6D9000C90D61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 986FF73C1E9E6D9000C90D61 /* LaunchScreen.storyboard */; };
 		986FF7491E9E6D9000C90D61 /* BabyfoonAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986FF7481E9E6D9000C90D61 /* BabyfoonAppTests.swift */; };
 		986FF7541E9E6D9000C90D61 /* BabyfoonAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986FF7531E9E6D9000C90D61 /* BabyfoonAppUITests.swift */; };
+		986FF77B1E9E824900C90D61 /* FirstStartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986FF7771E9E824900C90D61 /* FirstStartController.swift */; };
+		986FF77C1E9E824900C90D61 /* FirstStartController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 986FF7781E9E824900C90D61 /* FirstStartController.xib */; };
+		986FF77D1E9E824900C90D61 /* PairingInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986FF7791E9E824900C90D61 /* PairingInfoController.swift */; };
+		986FF77E1E9E824900C90D61 /* PairingInfoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 986FF77A1E9E824900C90D61 /* PairingInfoController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		986FF7301E9E6D9000C90D61 /* BabyfoonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyfoonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		986FF7331E9E6D9000C90D61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		986FF7351E9E6D9000C90D61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		986FF7381E9E6D9000C90D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		986FF73A1E9E6D9000C90D61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		986FF73D1E9E6D9000C90D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		986FF74F1E9E6D9000C90D61 /* BabyfoonAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyfoonAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		986FF7531E9E6D9000C90D61 /* BabyfoonAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyfoonAppUITests.swift; sourceTree = "<group>"; };
 		986FF7551E9E6D9000C90D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		986FF7771E9E824900C90D61 /* FirstStartController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstStartController.swift; sourceTree = "<group>"; };
+		986FF7781E9E824900C90D61 /* FirstStartController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstStartController.xib; sourceTree = "<group>"; };
+		986FF7791E9E824900C90D61 /* PairingInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PairingInfoController.swift; sourceTree = "<group>"; };
+		986FF77A1E9E824900C90D61 /* PairingInfoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PairingInfoController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				986FF7331E9E6D9000C90D61 /* AppDelegate.swift */,
-				986FF7351E9E6D9000C90D61 /* ViewController.swift */,
-				986FF7371E9E6D9000C90D61 /* Main.storyboard */,
+				986FF7751E9E824900C90D61 /* Controllers */,
 				986FF73A1E9E6D9000C90D61 /* Assets.xcassets */,
 				986FF73C1E9E6D9000C90D61 /* LaunchScreen.storyboard */,
+				986FF7371E9E6D9000C90D61 /* Main.storyboard */,
 				986FF73F1E9E6D9000C90D61 /* Info.plist */,
 			);
 			path = BabyfoonApp;
@@ -123,6 +129,25 @@
 				986FF7551E9E6D9000C90D61 /* Info.plist */,
 			);
 			path = BabyfoonAppUITests;
+			sourceTree = "<group>";
+		};
+		986FF7751E9E824900C90D61 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				986FF7761E9E824900C90D61 /* Home - first open */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		986FF7761E9E824900C90D61 /* Home - first open */ = {
+			isa = PBXGroup;
+			children = (
+				986FF7771E9E824900C90D61 /* FirstStartController.swift */,
+				986FF7781E9E824900C90D61 /* FirstStartController.xib */,
+				986FF7791E9E824900C90D61 /* PairingInfoController.swift */,
+				986FF77A1E9E824900C90D61 /* PairingInfoController.xib */,
+			);
+			path = "Home - first open";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +218,7 @@
 				TargetAttributes = {
 					986FF72F1E9E6D9000C90D61 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 6GRYCLPWB8;
 						ProvisioningStyle = Automatic;
 					};
 					986FF7431E9E6D9000C90D61 = {
@@ -233,8 +259,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				986FF73E1E9E6D9000C90D61 /* LaunchScreen.storyboard in Resources */,
+				986FF77C1E9E824900C90D61 /* FirstStartController.xib in Resources */,
 				986FF73B1E9E6D9000C90D61 /* Assets.xcassets in Resources */,
 				986FF7391E9E6D9000C90D61 /* Main.storyboard in Resources */,
+				986FF77E1E9E824900C90D61 /* PairingInfoController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +287,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				986FF7361E9E6D9000C90D61 /* ViewController.swift in Sources */,
+				986FF77D1E9E824900C90D61 /* PairingInfoController.swift in Sources */,
 				986FF7341E9E6D9000C90D61 /* AppDelegate.swift in Sources */,
+				986FF77B1E9E824900C90D61 /* FirstStartController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6GRYCLPWB8;
 				INFOPLIST_FILE = BabyfoonApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rosameijers.BabyfoonApp;
@@ -426,6 +456,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6GRYCLPWB8;
 				INFOPLIST_FILE = BabyfoonApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rosameijers.BabyfoonApp;
